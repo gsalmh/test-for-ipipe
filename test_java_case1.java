@@ -1,4 +1,5 @@
 public class TestJavaStyle{
+
 	private String Str;
 	//常量定义 
 	private static final String name = "hello";
