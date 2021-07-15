@@ -23,4 +23,10 @@ public class CatchAndThrowMustCompatibleDemo {
             throw new IndexOutOfBoundsException();
         }
     }
+     public void badCase12() {
+        try {
+        } catch (IndexOutOfBoundsException e) {
+            throw new NullPointerException();
+        }
+    }
 }
